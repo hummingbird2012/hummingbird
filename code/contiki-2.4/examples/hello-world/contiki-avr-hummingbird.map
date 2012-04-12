@@ -1,0 +1,1279 @@
+Archive member included because of file (symbol)
+
+contiki-avr-hummingbird.a(packetbuf.o)
+                              rf_test_tx.co (packetbuf_dataptr)
+contiki-avr-hummingbird.a(rimeaddr.o)
+                              contiki-avr-hummingbird.a(packetbuf.o) (rimeaddr_copy)
+contiki-avr-hummingbird.a(broadcast.o)
+                              rf_test_tx.co (broadcast_send)
+contiki-avr-hummingbird.a(abc.o)
+                              contiki-avr-hummingbird.a(broadcast.o) (abc_send)
+contiki-avr-hummingbird.a(chameleon.o)
+                              contiki-avr-hummingbird.a(abc.o) (chameleon_output)
+contiki-avr-hummingbird.a(channel.o)
+                              contiki-avr-hummingbird.a(abc.o) (channel_close)
+contiki-avr-hummingbird.a(process.o)
+                              rf_test_tx.co (process_alloc_event)
+contiki-avr-hummingbird.a(list.o)
+                              contiki-avr-hummingbird.a(channel.o) (list_init)
+contiki-avr-hummingbird.a(etimer.o)
+                              rf_test_tx.co (etimer_expired)
+contiki-avr-hummingbird.a(nrf24l01.o)
+                              rf_test_tx.co (nrf24l01_driver)
+contiki-avr-hummingbird.a(delay.o)
+                              contiki-avr-hummingbird.a(nrf24l01.o) (delayloop32)
+contiki-avr-hummingbird.a(sensornode.o)
+                              rf_test_tx.co (getSensorCap)
+contiki-avr-hummingbird.a(contiki-humming)
+                              /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/crtm644p.o (main)
+contiki-avr-hummingbird.a(clock.o)
+                              contiki-avr-hummingbird.a(contiki-humming) (clock_init)
+contiki-avr-hummingbird.a(rs232.o)
+                              contiki-avr-hummingbird.a(contiki-humming) (rs232_init)
+contiki-avr-hummingbird.a(rime.o)
+                              contiki-avr-hummingbird.a(chameleon.o) (rime_output)
+contiki-avr-hummingbird.a(rimestats.o)
+                              contiki-avr-hummingbird.a(nrf24l01.o) (rimestats)
+contiki-avr-hummingbird.a(announcement.o)
+                              contiki-avr-hummingbird.a(rime.o) (announcement_init)
+contiki-avr-hummingbird.a(chameleon-bitop)
+                              contiki-avr-hummingbird.a(rime.o) (chameleon_bitopt)
+contiki-avr-hummingbird.a(sicslowmac.o)
+                              contiki-avr-hummingbird.a(contiki-humming) (sicslowmac_init)
+contiki-avr-hummingbird.a(procinit.o)
+                              contiki-avr-hummingbird.a(contiki-humming) (procinit_init)
+contiki-avr-hummingbird.a(autostart.o)
+                              contiki-avr-hummingbird.a(contiki-humming) (autostart_start)
+contiki-avr-hummingbird.a(timer.o)
+                              contiki-avr-hummingbird.a(etimer.o) (timer_reset)
+contiki-avr-hummingbird.a(random.o)
+                              contiki-avr-hummingbird.a(contiki-humming) (random_rand)
+contiki-avr-hummingbird.a(spi.o)
+                              contiki-avr-hummingbird.a(nrf24l01.o) (spi_rw_byte)
+contiki-avr-hummingbird.a(queuebuf.o)
+                              contiki-avr-hummingbird.a(rime.o) (queuebuf_init)
+contiki-avr-hummingbird.a(frame802154.o)
+                              contiki-avr-hummingbird.a(sicslowmac.o) (frame802154_parse)
+contiki-avr-hummingbird.a(memb.o)
+                              contiki-avr-hummingbird.a(queuebuf.o) (memb_alloc)
+/usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_divmodhi4.o)
+                              contiki-avr-hummingbird.a(contiki-humming) (__divmodhi4)
+/usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_exit.o)
+                              /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/crtm644p.o (exit)
+/usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_copy_data.o)
+                              rf_test_tx.co (__do_copy_data)
+/usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_clear_bss.o)
+                              rf_test_tx.co (__do_clear_bss)
+/usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_udivmodhi4.o)
+                              /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_divmodhi4.o) (__udivmodhi4)
+/usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o)
+                              contiki-avr-hummingbird.a(random.o) (rand)
+/usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+                              contiki-avr-hummingbird.a(packetbuf.o) (memcpy)
+/usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(memset.o)
+                              contiki-avr-hummingbird.a(chameleon-bitop) (memset)
+/usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(iob.o)
+                              contiki-avr-hummingbird.a(rs232.o) (__iob)
+/usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf.o)
+                              rf_test_tx.co (printf)
+/usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf_p.o)
+                              contiki-avr-hummingbird.a(nrf24l01.o) (printf_P)
+/usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(puts.o)
+                              rf_test_tx.co (puts)
+/usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vsnprintf.o)
+                              contiki-avr-hummingbird.a(rs232.o) (vsnprintf)
+/usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                              /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf.o) (vfprintf)
+/usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                              /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (strnlen_P)
+/usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+                              /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (strnlen)
+/usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+                              /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (fputc)
+/usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                              /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (__ultoa_invert)
+/usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_mulsi3.o)
+                              /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o) (__mulsi3)
+/usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_divmodsi4.o)
+                              /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o) (__divmodsi4)
+/usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_prologue.o)
+                              /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o) (__prologue_saves__)
+/usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_epilogue.o)
+                              /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o) (__epilogue_restores__)
+/usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_udivmodsi4.o)
+                              /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_divmodsi4.o) (__udivmodsi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+state_change_event  0x1               rf_test_tx.co
+rimestats           0x48              contiki-avr-hummingbird.a(rimestats.o)
+packetbuf_addrs     0x8               contiki-avr-hummingbird.a(packetbuf.o)
+rimeaddr_node_addr  0x2               contiki-avr-hummingbird.a(rimeaddr.o)
+rx_mode             0x1               contiki-avr-hummingbird.a(nrf24l01.o)
+packetbuf_attrs     0x28              contiki-avr-hummingbird.a(packetbuf.o)
+addr                0x2               rf_test_tx.co
+rxframe             0x23              contiki-avr-hummingbird.a(nrf24l01.o)
+seconds             0x4               contiki-avr-hummingbird.a(clock.o)
+rime_mac            0x2               contiki-avr-hummingbird.a(rime.o)
+__iob               0x6               /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(iob.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/crtm644p.o
+Address of section .bootloader set to 0x1fc00
+LOAD rf_test_tx.co
+LOAD contiki-avr-hummingbird.a
+LOAD /tmp/ccuXiKoz.o
+LOAD /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a
+LOAD /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a
+LOAD /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x3f88
+ *(.vectors)
+ .vectors       0x00000000       0x7c /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/crtm644p.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x0000007c      0x181 contiki-avr-hummingbird.a(nrf24l01.o)
+                0x000001fe                . = ALIGN (0x2)
+ *fill*         0x000001fd        0x1 00
+                0x000001fe                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000001fe        0x0 linker stubs
+ *(.trampolines*)
+                0x000001fe                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000001fe                __ctors_start = .
+ *(.ctors)
+                0x000001fe                __ctors_end = .
+                0x000001fe                __dtors_start = .
+ *(.dtors)
+                0x000001fe                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000001fe        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/crtm644p.o
+                0x000001fe                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000001fe        0xc /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/crtm644p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000020a       0x16 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_copy_data.o)
+                0x0000020a                __do_copy_data
+ .init4         0x00000220       0x10 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_clear_bss.o)
+                0x00000220                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000230        0x8 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/crtm644p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000238        0x4 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/crtm644p.o
+                0x00000238                __vector_24
+                0x00000238                __vector_12
+                0x00000238                __bad_interrupt
+                0x00000238                __vector_6
+                0x00000238                __vector_3
+                0x00000238                __vector_23
+                0x00000238                __vector_25
+                0x00000238                __vector_11
+                0x00000238                __vector_13
+                0x00000238                __vector_17
+                0x00000238                __vector_19
+                0x00000238                __vector_7
+                0x00000238                __vector_27
+                0x00000238                __vector_5
+                0x00000238                __vector_4
+                0x00000238                __vector_9
+                0x00000238                __vector_2
+                0x00000238                __vector_21
+                0x00000238                __vector_15
+                0x00000238                __vector_29
+                0x00000238                __vector_8
+                0x00000238                __vector_26
+                0x00000238                __vector_14
+                0x00000238                __vector_10
+                0x00000238                __vector_18
+ .text          0x0000023c      0x3ee rf_test_tx.co
+ .text          0x0000062a      0x3a2 contiki-avr-hummingbird.a(packetbuf.o)
+                0x00000854                packetbuf_copyto
+                0x000006d0                packetbuf_is_reference
+                0x00000832                packetbuf_attr_copyto
+                0x00000980                packetbuf_copyfrom
+                0x00000740                packetbuf_attr
+                0x00000698                packetbuf_set_datalen
+                0x000006fe                packetbuf_datalen
+                0x00000810                packetbuf_attr_copyfrom
+                0x000006f4                packetbuf_reference_ptr
+                0x0000062a                packetbuf_clear_hdr
+                0x000008d4                packetbuf_copyto_hdr
+                0x0000072a                packetbuf_set_attr
+                0x00000712                packetbuf_totlen
+                0x000007e6                packetbuf_reference
+                0x00000632                packetbuf_hdralloc
+                0x00000762                packetbuf_set_addr
+                0x00000708                packetbuf_hdrlen
+                0x00000752                packetbuf_addr
+                0x000006bc                packetbuf_hdrptr
+                0x0000065a                packetbuf_hdrreduce
+                0x000006a2                packetbuf_dataptr
+                0x0000090c                packetbuf_compact
+                0x000007b8                packetbuf_clear
+                0x00000776                packetbuf_attr_clear
+ .text          0x000009cc       0x48 contiki-avr-hummingbird.a(rimeaddr.o)
+                0x00000a04                rimeaddr_set_node_addr
+                0x000009cc                rimeaddr_copy
+                0x000009dc                rimeaddr_cmp
+ .text          0x00000a14       0xac contiki-avr-hummingbird.a(broadcast.o)
+                0x00000a36                broadcast_open
+                0x00000a30                broadcast_close
+                0x00000a14                broadcast_send
+ .text          0x00000ac0       0x50 contiki-avr-hummingbird.a(abc.o)
+                0x00000ad0                abc_send
+                0x00000ac0                abc_input
+                0x00000adc                abc_open
+                0x00000ad6                abc_close
+ .text          0x00000b10       0xb6 contiki-avr-hummingbird.a(chameleon.o)
+                0x00000b10                chameleon_hdrsize
+                0x00000bb8                chameleon_init
+                0x00000b84                chameleon_input
+                0x00000b34                chameleon_output
+ .text          0x00000bc6       0x80 contiki-avr-hummingbird.a(channel.o)
+                0x00000bc6                channel_lookup
+                0x00000c12                channel_set_attributes
+                0x00000c3c                channel_init
+                0x00000c00                channel_open
+                0x00000bf4                channel_close
+ .text          0x00000c46      0x388 contiki-avr-hummingbird.a(process.o)
+                0x00000ef0                process_post
+                0x00000ede                process_nevents
+                0x00000f56                process_start
+                0x00000f38                process_post_synch
+                0x00000fa2                process_poll
+                0x00000c46                process_alloc_event
+                0x00000d70                process_exit
+                0x00000fba                process_is_running
+                0x00000d7e                process_init
+                0x00000d9e                process_run
+ .text          0x00000fce      0x192 contiki-avr-hummingbird.a(list.o)
+                0x00000fde                list_copy
+                0x00001048                list_push
+                0x000010aa                list_pop
+                0x0000100e                list_add
+                0x0000110c                list_length
+                0x00000fec                list_tail
+                0x00000fd6                list_head
+                0x0000112c                list_insert
+                0x0000105c                list_chop
+                0x00000fce                list_init
+                0x000010c2                list_remove
+ .text          0x00001160      0x2e4 contiki-avr-hummingbird.a(etimer.o)
+                0x00001190                etimer_pending
+                0x00001418                etimer_reset
+                0x0000142e                etimer_set
+                0x0000127a                etimer_adjust
+                0x00001402                etimer_restart
+                0x00001188                etimer_start_time
+                0x000011a6                etimer_next_expiration_time
+                0x0000128e                etimer_request_poll
+                0x00001176                etimer_expiration_time
+                0x0000122a                etimer_stop
+                0x00001160                etimer_expired
+ .text          0x00001444      0x914 contiki-avr-hummingbird.a(nrf24l01.o)
+                0x00001842                nrf24l01_set_txpower
+                0x00001444                radio_is_sleeping
+                0x00001c96                __vector_1
+                0x000014d6                nrf24l01_ioctl
+                0x000019a2                nrf24l01_read
+                0x00001a76                nrf24l01_send
+                0x000017e2                spi_subregister_write
+                0x00001c0c                nrf24l01_interrupt
+                0x00001458                setISRType
+                0x0000175e                spi_register_read
+                0x0000146c                getISRMode
+                0x00001474                status_tx_ds_handler
+                0x00001466                setISRMode
+                0x00001856                nrf24l01_init
+                0x0000176e                nrf24l01_waitidle
+                0x00001c1c                status_rx_dr_handler
+                0x000017d4                nrf24l01_get_txpower
+                0x00001664                nrf24l01_on
+                0x0000145e                getISRType
+                0x00001448                nrf24l01_set_receiver
+                0x000017ae                spi_subregister_read
+                0x0000172c                nrf24l01_off
+                0x00001452                clearISRType
+                0x00001bd8                status_max_rt_handler
+ .text          0x00001d58       0x26 contiki-avr-hummingbird.a(delay.o)
+                0x00001d64                delayloop32
+                0x00001d58                delayloop16
+ .text          0x00001d7e       0xd4 contiki-avr-hummingbird.a(sensornode.o)
+                0x00001dea                isSensorCapSupport
+                0x00001e3e                warnSensorBad
+                0x00001dae                setSensorCap
+                0x00001d7e                getSensorCap
+                0x00001e1a                captureAndPacketSensorTemp
+ .text          0x00001e52       0xb2 contiki-avr-hummingbird.a(contiki-humming)
+                0x00001efa                main
+                0x00001e52                initialize
+ .text          0x00001f04      0x184 contiki-avr-hummingbird.a(clock.o)
+                0x00001f04                clock_init
+                0x00001f6c                clock_wait
+                0x00001fa8                clock_seconds
+                0x00001f56                clock_delay
+                0x00001fa6                clock_set_seconds
+                0x00001f3c                clock_time
+                0x00001fd8                __vector_16
+ .text          0x00002088      0x2f0 contiki-avr-hummingbird.a(rs232.o)
+                0x00002088                __vector_22
+                0x00002114                __vector_28
+                0x000022b0                rs232_stdout_putchar
+                0x0000230e                rs232_printf
+                0x00002236                rs232_send
+                0x000022fc                rs232_redirect_stdout
+                0x000020fc                __vector_30
+                0x00002170                rs232_init
+                0x000021a8                rs232_print_p
+                0x00002294                slip_arch_writeb
+                0x000021ee                rs232_print
+                0x00002278                rs232_set_input
+                0x000020a0                __vector_20
+ .text          0x00002378      0x132 contiki-avr-hummingbird.a(rime.o)
+                0x000023f0                rime_init
+                0x0000249e                rime_sniffer_add
+                0x00002492                rime_sniffer_remove
+                0x00002378                rime_output
+ .text          0x000024aa        0x0 contiki-avr-hummingbird.a(rimestats.o)
+ .text          0x000024aa      0x118 contiki-avr-hummingbird.a(announcement.o)
+                0x000024aa                announcement_set_value
+                0x00002580                announcement_register
+                0x00002514                announcement_heard
+                0x0000250a                announcement_register_observer_callback
+                0x00002500                announcement_register_listen_callback
+                0x000024f0                announcement_listen
+                0x000025b8                announcement_init
+                0x0000256a                announcement_list
+                0x00002574                announcement_remove
+                0x000024cc                announcement_set_id
+ .text          0x000025c2      0x56c contiki-avr-hummingbird.a(chameleon-bitop)
+                0x000025c2                get_bits_in_byte
+                0x0000279c                set_bits
+                0x00002774                set_bits_in_byte
+                0x00002600                get_bits
+ .text          0x00002b2e      0x2a0 contiki-avr-hummingbird.a(sicslowmac.o)
+                0x00002d86                sicslowmac_init
+ .text          0x00002dce       0x20 contiki-avr-hummingbird.a(procinit.o)
+                0x00002dce                procinit_init
+ .text          0x00002dee       0x38 contiki-avr-hummingbird.a(autostart.o)
+                0x00002dee                autostart_exit
+                0x00002e08                autostart_start
+ .text          0x00002e26       0x9e contiki-avr-hummingbird.a(timer.o)
+                0x00002e64                timer_expired
+                0x00002e3a                timer_remaining
+                0x00002ea8                timer_set
+                0x00002e92                timer_restart
+                0x00002e26                timer_reset
+ .text          0x00002ec4        0xc contiki-avr-hummingbird.a(random.o)
+                0x00002ec4                random_rand
+                0x00002eca                random_init
+ .text          0x00002ed0      0x106 contiki-avr-hummingbird.a(spi.o)
+                0x00002f7c                spi_init
+                0x00002f0e                spi_write_buf
+                0x00002ed0                spi_rw_byte
+                0x00002f04                spi_send_cmd
+ .text          0x00002fd6      0x178 contiki-avr-hummingbird.a(queuebuf.o)
+                0x00002fde                queuebuf_dataptr
+                0x00002fd6                queuebuf_datalen
+                0x00003090                queuebuf_free
+                0x0000313c                queuebuf_init
+                0x000030ca                queuebuf_new_from_packetbuf
+                0x0000301a                queuebuf_to_packetbuf
+ .text          0x0000314e      0x468 contiki-avr-hummingbird.a(frame802154.o)
+                0x000033ce                frame802154_create
+                0x0000314e                frame802154_parse
+                0x0000357a                frame802154_hdrlen
+ .text          0x000035b6      0x144 contiki-avr-hummingbird.a(memb.o)
+                0x000035b6                memb_alloc
+                0x00003612                memb_free
+                0x000036b4                memb_init
+                0x0000366e                memb_inmemb
+ .text          0x000036fa        0x0 /tmp/ccuXiKoz.o
+ .text          0x000036fa        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x000036fa        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_exit.o)
+ .text          0x000036fa        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x000036fa        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x000036fa        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x000036fa       0xc2 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o)
+                0x00003796                rand_r
+                0x0000379c                rand
+                0x000037a6                srand
+ .text          0x000037bc       0x12 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+                0x000037bc                memcpy
+ .text          0x000037ce        0xe /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(memset.o)
+                0x000037ce                memset
+ .text          0x000037dc        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(iob.o)
+ .text          0x000037dc       0x2a /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf.o)
+                0x000037dc                printf
+ .text          0x00003806       0x4c /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf_p.o)
+                0x00003806                printf_P
+ .text          0x00003852       0x6a /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(puts.o)
+                0x00003852                puts
+ .text          0x000038bc       0x56 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vsnprintf.o)
+                0x000038bc                vsnprintf
+ .text          0x00003912      0x3be /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                0x00003912                vfprintf
+ .text          0x00003cd0       0x16 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                0x00003cd0                strnlen_P
+ .text          0x00003ce6       0x16 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+                0x00003ce6                strnlen
+ .text          0x00003cfc       0x58 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+                0x00003cfc                fputc
+ .text          0x00003d54       0xbc /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                0x00003d54                __ultoa_invert
+ .text          0x00003e10        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_mulsi3.o)
+ .text          0x00003e10        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .text          0x00003e10        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_prologue.o)
+ .text          0x00003e10        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_epilogue.o)
+ .text          0x00003e10        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x00003e10                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00003e10       0x26 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_divmodhi4.o)
+                0x00003e10                __divmodhi4
+                0x00003e10                _div
+ .text.libgcc   0x00003e36        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x00003e36        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00003e36        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00003e36       0x28 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x00003e36                __udivmodhi4
+ .text.libgcc   0x00003e5e       0x3e /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_mulsi3.o)
+                0x00003e5e                __mulsi3
+ .text.libgcc   0x00003e9c       0x36 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_divmodsi4.o)
+                0x00003e9c                __divmodsi4
+ .text.libgcc   0x00003ed2       0x38 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_prologue.o)
+                0x00003ed2                __prologue_saves__
+ .text.libgcc   0x00003f0a       0x36 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_epilogue.o)
+                0x00003f0a                __epilogue_restores__
+ .text.libgcc   0x00003f40       0x44 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x00003f40                __udivmodsi4
+                0x00003f84                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00003f84        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_exit.o)
+                0x00003f84                exit
+                0x00003f84                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00003f84        0x4 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00003f88                _etext = .
+
+.data           0x00800100      0x27c load address 0x00003f88
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/crtm644p.o
+ .data          0x00800100       0xfd rf_test_tx.co
+                0x008001ed                rf_test_process
+                0x008001f7                autostart_processes
+ .data          0x008001fd        0x2 contiki-avr-hummingbird.a(packetbuf.o)
+ .data          0x008001ff        0x2 contiki-avr-hummingbird.a(rimeaddr.o)
+                0x008001ff                rimeaddr_null
+ .data          0x00800201        0x6 contiki-avr-hummingbird.a(broadcast.o)
+ .data          0x00800207        0x2 contiki-avr-hummingbird.a(abc.o)
+ .data          0x00800209        0x0 contiki-avr-hummingbird.a(chameleon.o)
+ .data          0x00800209        0x0 contiki-avr-hummingbird.a(channel.o)
+ .data          0x00800209        0x0 contiki-avr-hummingbird.a(process.o)
+ .data          0x00800209        0x0 contiki-avr-hummingbird.a(list.o)
+ .data          0x00800209       0x16 contiki-avr-hummingbird.a(etimer.o)
+                0x00800215                etimer_process
+ .data          0x0080021f       0x28 contiki-avr-hummingbird.a(nrf24l01.o)
+                0x00800231                nrf24l01_process
+                0x0080023b                nrf24l01_driver
+ .data          0x00800247        0x0 contiki-avr-hummingbird.a(delay.o)
+ .data          0x00800247       0x28 contiki-avr-hummingbird.a(sensornode.o)
+ .data          0x0080026f       0x3e contiki-avr-hummingbird.a(contiki-humming)
+                0x008002a9                procinit
+ .data          0x008002ad        0x0 contiki-avr-hummingbird.a(clock.o)
+ .data          0x008002ad       0x2c contiki-avr-hummingbird.a(rs232.o)
+ .data          0x008002d9        0x0 contiki-avr-hummingbird.a(rime.o)
+ .data          0x008002d9        0x0 contiki-avr-hummingbird.a(rimestats.o)
+ .data          0x008002d9        0x0 contiki-avr-hummingbird.a(announcement.o)
+ .data          0x008002d9       0x11 contiki-avr-hummingbird.a(chameleon-bitop)
+                0x008002d9                chameleon_bitopt
+ .data          0x008002ea       0x2c contiki-avr-hummingbird.a(sicslowmac.o)
+                0x00800306                sicslowmac_driver
+ .data          0x00800316        0x0 contiki-avr-hummingbird.a(procinit.o)
+ .data          0x00800316        0x0 contiki-avr-hummingbird.a(autostart.o)
+ .data          0x00800316        0x0 contiki-avr-hummingbird.a(timer.o)
+ .data          0x00800316        0x0 contiki-avr-hummingbird.a(random.o)
+ .data          0x00800316       0x4c contiki-avr-hummingbird.a(spi.o)
+ .data          0x00800362       0x10 contiki-avr-hummingbird.a(queuebuf.o)
+ .data          0x00800372        0x0 contiki-avr-hummingbird.a(frame802154.o)
+ .data          0x00800372        0x0 contiki-avr-hummingbird.a(memb.o)
+ .data          0x00800372        0x6 /tmp/ccuXiKoz.o
+                0x00800374                symbols
+                0x00800372                symbols_nelts
+ .data          0x00800378        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x00800378        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_exit.o)
+ .data          0x00800378        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x00800378        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x00800378        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x00800378        0x4 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(memset.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(iob.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf_p.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(puts.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vsnprintf.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_mulsi3.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_prologue.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_epilogue.o)
+ .data          0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080037c                . = ALIGN (0x2)
+                0x0080037c                _edata = .
+                0x0080037c                PROVIDE (__data_end, .)
+
+.bss            0x0080037c      0x37e load address 0x00004204
+                0x0080037c                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080037c        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/crtm644p.o
+ .bss           0x0080037c       0x3c rf_test_tx.co
+                0x00800380                sendfail_cnt
+                0x0080037c                rf_mode
+                0x0080037e                bTimeout
+                0x0080037f                ret
+                0x0080037d                timeout_cnt
+ .bss           0x008003b8       0x9d contiki-avr-hummingbird.a(packetbuf.o)
+ .bss           0x00800455        0x0 contiki-avr-hummingbird.a(rimeaddr.o)
+ .bss           0x00800455        0x0 contiki-avr-hummingbird.a(broadcast.o)
+ .bss           0x00800455        0x0 contiki-avr-hummingbird.a(abc.o)
+ .bss           0x00800455        0x2 contiki-avr-hummingbird.a(chameleon.o)
+ .bss           0x00800457        0x2 contiki-avr-hummingbird.a(channel.o)
+ .bss           0x00800459       0xb0 contiki-avr-hummingbird.a(process.o)
+                0x00800459                process_list
+                0x0080045b                process_current
+ .bss           0x00800509        0x0 contiki-avr-hummingbird.a(list.o)
+ .bss           0x00800509        0x4 contiki-avr-hummingbird.a(etimer.o)
+ .bss           0x0080050d        0x9 contiki-avr-hummingbird.a(nrf24l01.o)
+ .bss           0x00800516        0x0 contiki-avr-hummingbird.a(delay.o)
+ .bss           0x00800516        0x0 contiki-avr-hummingbird.a(sensornode.o)
+ .bss           0x00800516        0x2 contiki-avr-hummingbird.a(contiki-humming)
+                0x00800516                g_dbg_file
+ .bss           0x00800518        0x4 contiki-avr-hummingbird.a(clock.o)
+ .bss           0x0080051c       0x41 contiki-avr-hummingbird.a(rs232.o)
+ .bss           0x0080055d        0x2 contiki-avr-hummingbird.a(rime.o)
+ .bss           0x0080055f        0x0 contiki-avr-hummingbird.a(rimestats.o)
+ .bss           0x0080055f        0x6 contiki-avr-hummingbird.a(announcement.o)
+ .bss           0x00800565        0x0 contiki-avr-hummingbird.a(chameleon-bitop)
+ .bss           0x00800565        0x5 contiki-avr-hummingbird.a(sicslowmac.o)
+ .bss           0x0080056a        0x0 contiki-avr-hummingbird.a(procinit.o)
+ .bss           0x0080056a        0x0 contiki-avr-hummingbird.a(autostart.o)
+ .bss           0x0080056a        0x0 contiki-avr-hummingbird.a(timer.o)
+ .bss           0x0080056a        0x0 contiki-avr-hummingbird.a(random.o)
+ .bss           0x0080056a        0x0 contiki-avr-hummingbird.a(spi.o)
+ .bss           0x0080056a       0xe3 contiki-avr-hummingbird.a(queuebuf.o)
+ .bss           0x0080064d        0x0 contiki-avr-hummingbird.a(frame802154.o)
+ .bss           0x0080064d        0x0 contiki-avr-hummingbird.a(memb.o)
+ .bss           0x0080064d        0x0 /tmp/ccuXiKoz.o
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_exit.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(memset.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(iob.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf_p.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(puts.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vsnprintf.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_mulsi3.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_prologue.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_epilogue.o)
+ .bss           0x0080064d        0x0 /usr/local/avr/lib/gcc/avr/4.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0080064d        0x3 rf_test_tx.co
+                0x0080064d                state_change_event
+                0x0080064e                addr
+ COMMON         0x00800650       0x30 contiki-avr-hummingbird.a(packetbuf.o)
+                0x00800650                packetbuf_addrs
+                0x00800658                packetbuf_attrs
+ COMMON         0x00800680        0x2 contiki-avr-hummingbird.a(rimeaddr.o)
+                0x00800680                rimeaddr_node_addr
+ COMMON         0x00800682       0x24 contiki-avr-hummingbird.a(nrf24l01.o)
+                0x00800682                rx_mode
+                0x00800683                rxframe
+ COMMON         0x008006a6        0x4 contiki-avr-hummingbird.a(clock.o)
+                0x008006a6                seconds
+ COMMON         0x008006aa        0x2 contiki-avr-hummingbird.a(rime.o)
+                0x008006aa                rime_mac
+ COMMON         0x008006ac       0x48 contiki-avr-hummingbird.a(rimestats.o)
+                0x008006ac                rimestats
+ COMMON         0x008006f4        0x6 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(iob.o)
+                0x008006f4                __iob
+                0x008006fa                PROVIDE (__bss_end, .)
+                0x00003f88                __data_load_start = LOADADDR (.data)
+                0x00004204                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008006fa        0x0
+                0x008006fa                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008006fa                PROVIDE (__noinit_end, .)
+                0x008006fa                _end = .
+                0x008006fa                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000      0xd5c
+ *(.stab)
+ .stab          0x00000000      0x6b4 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/crtm644p.o
+ .stab          0x000006b4       0x84 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(memcpy.o)
+                                 0x90 (size before relaxing)
+ .stab          0x00000738       0x6c /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(memset.o)
+                                 0x78 (size before relaxing)
+ .stab          0x000007a4       0x9c /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x00000840       0x9c /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(strnlen.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x000008dc      0x480 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                                0x48c (size before relaxing)
+
+.stabstr        0x00000000      0x145
+ *(.stabstr)
+ .stabstr       0x00000000      0x145 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/crtm644p.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x460
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 rf_test_tx.co
+ .debug_aranges
+                0x00000020       0x20 contiki-avr-hummingbird.a(packetbuf.o)
+ .debug_aranges
+                0x00000040       0x20 contiki-avr-hummingbird.a(rimeaddr.o)
+ .debug_aranges
+                0x00000060       0x20 contiki-avr-hummingbird.a(broadcast.o)
+ .debug_aranges
+                0x00000080       0x20 contiki-avr-hummingbird.a(abc.o)
+ .debug_aranges
+                0x000000a0       0x20 contiki-avr-hummingbird.a(chameleon.o)
+ .debug_aranges
+                0x000000c0       0x20 contiki-avr-hummingbird.a(channel.o)
+ .debug_aranges
+                0x000000e0       0x20 contiki-avr-hummingbird.a(process.o)
+ .debug_aranges
+                0x00000100       0x20 contiki-avr-hummingbird.a(list.o)
+ .debug_aranges
+                0x00000120       0x20 contiki-avr-hummingbird.a(etimer.o)
+ .debug_aranges
+                0x00000140       0x20 contiki-avr-hummingbird.a(nrf24l01.o)
+ .debug_aranges
+                0x00000160       0x20 contiki-avr-hummingbird.a(delay.o)
+ .debug_aranges
+                0x00000180       0x20 contiki-avr-hummingbird.a(sensornode.o)
+ .debug_aranges
+                0x000001a0       0x20 contiki-avr-hummingbird.a(contiki-humming)
+ .debug_aranges
+                0x000001c0       0x20 contiki-avr-hummingbird.a(clock.o)
+ .debug_aranges
+                0x000001e0       0x20 contiki-avr-hummingbird.a(rs232.o)
+ .debug_aranges
+                0x00000200       0x20 contiki-avr-hummingbird.a(rime.o)
+ .debug_aranges
+                0x00000220       0x20 contiki-avr-hummingbird.a(announcement.o)
+ .debug_aranges
+                0x00000240       0x20 contiki-avr-hummingbird.a(chameleon-bitop)
+ .debug_aranges
+                0x00000260       0x20 contiki-avr-hummingbird.a(sicslowmac.o)
+ .debug_aranges
+                0x00000280       0x20 contiki-avr-hummingbird.a(procinit.o)
+ .debug_aranges
+                0x000002a0       0x20 contiki-avr-hummingbird.a(autostart.o)
+ .debug_aranges
+                0x000002c0       0x20 contiki-avr-hummingbird.a(timer.o)
+ .debug_aranges
+                0x000002e0       0x20 contiki-avr-hummingbird.a(random.o)
+ .debug_aranges
+                0x00000300       0x20 contiki-avr-hummingbird.a(spi.o)
+ .debug_aranges
+                0x00000320       0x20 contiki-avr-hummingbird.a(queuebuf.o)
+ .debug_aranges
+                0x00000340       0x20 contiki-avr-hummingbird.a(frame802154.o)
+ .debug_aranges
+                0x00000360       0x20 contiki-avr-hummingbird.a(memb.o)
+ .debug_aranges
+                0x00000380       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o)
+ .debug_aranges
+                0x000003a0       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf.o)
+ .debug_aranges
+                0x000003c0       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf_p.o)
+ .debug_aranges
+                0x000003e0       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(puts.o)
+ .debug_aranges
+                0x00000400       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vsnprintf.o)
+ .debug_aranges
+                0x00000420       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .debug_aranges
+                0x00000440       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+
+.debug_pubnames
+                0x00000000     0x126c
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0xa0 rf_test_tx.co
+ .debug_pubnames
+                0x000000a0      0x267 contiki-avr-hummingbird.a(packetbuf.o)
+ .debug_pubnames
+                0x00000307       0x79 contiki-avr-hummingbird.a(rimeaddr.o)
+ .debug_pubnames
+                0x00000380       0x4c contiki-avr-hummingbird.a(broadcast.o)
+ .debug_pubnames
+                0x000003cc       0x48 contiki-avr-hummingbird.a(abc.o)
+ .debug_pubnames
+                0x00000414       0x64 contiki-avr-hummingbird.a(chameleon.o)
+ .debug_pubnames
+                0x00000478       0x74 contiki-avr-hummingbird.a(channel.o)
+ .debug_pubnames
+                0x000004ec       0xf7 contiki-avr-hummingbird.a(process.o)
+ .debug_pubnames
+                0x000005e3       0xb0 contiki-avr-hummingbird.a(list.o)
+ .debug_pubnames
+                0x00000693      0x109 contiki-avr-hummingbird.a(etimer.o)
+ .debug_pubnames
+                0x0000079c      0x23d contiki-avr-hummingbird.a(nrf24l01.o)
+ .debug_pubnames
+                0x000009d9       0x32 contiki-avr-hummingbird.a(delay.o)
+ .debug_pubnames
+                0x00000a0b       0x7c contiki-avr-hummingbird.a(sensornode.o)
+ .debug_pubnames
+                0x00000a87       0x46 contiki-avr-hummingbird.a(contiki-humming)
+ .debug_pubnames
+                0x00000acd       0x93 contiki-avr-hummingbird.a(clock.o)
+ .debug_pubnames
+                0x00000b60       0xff contiki-avr-hummingbird.a(rs232.o)
+ .debug_pubnames
+                0x00000c5f       0x6a contiki-avr-hummingbird.a(rime.o)
+ .debug_pubnames
+                0x00000cc9       0x20 contiki-avr-hummingbird.a(rimestats.o)
+ .debug_pubnames
+                0x00000ce9      0x128 contiki-avr-hummingbird.a(announcement.o)
+ .debug_pubnames
+                0x00000e11       0x6b contiki-avr-hummingbird.a(chameleon-bitop)
+ .debug_pubnames
+                0x00000e7c       0x3c contiki-avr-hummingbird.a(sicslowmac.o)
+ .debug_pubnames
+                0x00000eb8       0x24 contiki-avr-hummingbird.a(procinit.o)
+ .debug_pubnames
+                0x00000edc       0x39 contiki-avr-hummingbird.a(autostart.o)
+ .debug_pubnames
+                0x00000f15       0x68 contiki-avr-hummingbird.a(timer.o)
+ .debug_pubnames
+                0x00000f7d       0x32 contiki-avr-hummingbird.a(random.o)
+ .debug_pubnames
+                0x00000faf       0x52 contiki-avr-hummingbird.a(spi.o)
+ .debug_pubnames
+                0x00001001       0x9a contiki-avr-hummingbird.a(queuebuf.o)
+ .debug_pubnames
+                0x0000109b       0x56 contiki-avr-hummingbird.a(frame802154.o)
+ .debug_pubnames
+                0x000010f1       0x4d contiki-avr-hummingbird.a(memb.o)
+ .debug_pubnames
+                0x0000113e       0x30 /tmp/ccuXiKoz.o
+ .debug_pubnames
+                0x0000116e       0x30 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o)
+ .debug_pubnames
+                0x0000119e       0x1c /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(iob.o)
+ .debug_pubnames
+                0x000011ba       0x1d /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf.o)
+ .debug_pubnames
+                0x000011d7       0x1f /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf_p.o)
+ .debug_pubnames
+                0x000011f6       0x1b /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(puts.o)
+ .debug_pubnames
+                0x00001211       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vsnprintf.o)
+ .debug_pubnames
+                0x00001231       0x1f /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .debug_pubnames
+                0x00001250       0x1c /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+
+.debug_info     0x00000000     0x8405
+ *(.debug_info)
+ .debug_info    0x00000000      0x7c1 rf_test_tx.co
+ .debug_info    0x000007c1      0x692 contiki-avr-hummingbird.a(packetbuf.o)
+ .debug_info    0x00000e53      0x1c6 contiki-avr-hummingbird.a(rimeaddr.o)
+ .debug_info    0x00001019      0x3d0 contiki-avr-hummingbird.a(broadcast.o)
+ .debug_info    0x000013e9      0x263 contiki-avr-hummingbird.a(abc.o)
+ .debug_info    0x0000164c      0x322 contiki-avr-hummingbird.a(chameleon.o)
+ .debug_info    0x0000196e      0x22f contiki-avr-hummingbird.a(channel.o)
+ .debug_info    0x00001b9d      0x55f contiki-avr-hummingbird.a(process.o)
+ .debug_info    0x000020fc      0x37a contiki-avr-hummingbird.a(list.o)
+ .debug_info    0x00002476      0x4ed contiki-avr-hummingbird.a(etimer.o)
+ .debug_info    0x00002963     0x112a contiki-avr-hummingbird.a(nrf24l01.o)
+ .debug_info    0x00003a8d       0xc3 contiki-avr-hummingbird.a(delay.o)
+ .debug_info    0x00003b50      0x283 contiki-avr-hummingbird.a(sensornode.o)
+ .debug_info    0x00003dd3      0x3fc contiki-avr-hummingbird.a(contiki-humming)
+ .debug_info    0x000041cf      0x23a contiki-avr-hummingbird.a(clock.o)
+ .debug_info    0x00004409      0x5ff contiki-avr-hummingbird.a(rs232.o)
+ .debug_info    0x00004a08      0x64b contiki-avr-hummingbird.a(rime.o)
+ .debug_info    0x00005053      0x146 contiki-avr-hummingbird.a(rimestats.o)
+ .debug_info    0x00005199      0x382 contiki-avr-hummingbird.a(announcement.o)
+ .debug_info    0x0000551b      0x772 contiki-avr-hummingbird.a(chameleon-bitop)
+ .debug_info    0x00005c8d      0x705 contiki-avr-hummingbird.a(sicslowmac.o)
+ .debug_info    0x00006392      0x18f contiki-avr-hummingbird.a(procinit.o)
+ .debug_info    0x00006521      0x1af contiki-avr-hummingbird.a(autostart.o)
+ .debug_info    0x000066d0      0x170 contiki-avr-hummingbird.a(timer.o)
+ .debug_info    0x00006840       0xa1 contiki-avr-hummingbird.a(random.o)
+ .debug_info    0x000068e1      0x299 contiki-avr-hummingbird.a(spi.o)
+ .debug_info    0x00006b7a      0x3bd contiki-avr-hummingbird.a(queuebuf.o)
+ .debug_info    0x00006f37      0x47a contiki-avr-hummingbird.a(frame802154.o)
+ .debug_info    0x000073b1      0x1af contiki-avr-hummingbird.a(memb.o)
+ .debug_info    0x00007560       0xab /tmp/ccuXiKoz.o
+ .debug_info    0x0000760b      0x111 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o)
+ .debug_info    0x0000771c      0x156 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(iob.o)
+ .debug_info    0x00007872      0x1b0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf.o)
+ .debug_info    0x00007a22      0x1b0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf_p.o)
+ .debug_info    0x00007bd2      0x19c /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(puts.o)
+ .debug_info    0x00007d6e      0x1d3 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vsnprintf.o)
+ .debug_info    0x00007f41      0x35e /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .debug_info    0x0000829f      0x166 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x3625
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x203 rf_test_tx.co
+ .debug_abbrev  0x00000203      0x251 contiki-avr-hummingbird.a(packetbuf.o)
+ .debug_abbrev  0x00000454      0x15c contiki-avr-hummingbird.a(rimeaddr.o)
+ .debug_abbrev  0x000005b0      0x197 contiki-avr-hummingbird.a(broadcast.o)
+ .debug_abbrev  0x00000747      0x141 contiki-avr-hummingbird.a(abc.o)
+ .debug_abbrev  0x00000888      0x14e contiki-avr-hummingbird.a(chameleon.o)
+ .debug_abbrev  0x000009d6      0x13b contiki-avr-hummingbird.a(channel.o)
+ .debug_abbrev  0x00000b11      0x300 contiki-avr-hummingbird.a(process.o)
+ .debug_abbrev  0x00000e11      0x1d3 contiki-avr-hummingbird.a(list.o)
+ .debug_abbrev  0x00000fe4      0x215 contiki-avr-hummingbird.a(etimer.o)
+ .debug_abbrev  0x000011f9      0x397 contiki-avr-hummingbird.a(nrf24l01.o)
+ .debug_abbrev  0x00001590       0x81 contiki-avr-hummingbird.a(delay.o)
+ .debug_abbrev  0x00001611      0x122 contiki-avr-hummingbird.a(sensornode.o)
+ .debug_abbrev  0x00001733      0x182 contiki-avr-hummingbird.a(contiki-humming)
+ .debug_abbrev  0x000018b5      0x152 contiki-avr-hummingbird.a(clock.o)
+ .debug_abbrev  0x00001a07      0x265 contiki-avr-hummingbird.a(rs232.o)
+ .debug_abbrev  0x00001c6c      0x1b0 contiki-avr-hummingbird.a(rime.o)
+ .debug_abbrev  0x00001e1c       0x5d contiki-avr-hummingbird.a(rimestats.o)
+ .debug_abbrev  0x00001e79      0x15d contiki-avr-hummingbird.a(announcement.o)
+ .debug_abbrev  0x00001fd6      0x315 contiki-avr-hummingbird.a(chameleon-bitop)
+ .debug_abbrev  0x000022eb      0x247 contiki-avr-hummingbird.a(sicslowmac.o)
+ .debug_abbrev  0x00002532       0xf7 contiki-avr-hummingbird.a(procinit.o)
+ .debug_abbrev  0x00002629       0xf3 contiki-avr-hummingbird.a(autostart.o)
+ .debug_abbrev  0x0000271c       0xc1 contiki-avr-hummingbird.a(timer.o)
+ .debug_abbrev  0x000027dd       0x65 contiki-avr-hummingbird.a(random.o)
+ .debug_abbrev  0x00002842      0x14c contiki-avr-hummingbird.a(spi.o)
+ .debug_abbrev  0x0000298e      0x171 contiki-avr-hummingbird.a(queuebuf.o)
+ .debug_abbrev  0x00002aff      0x1a1 contiki-avr-hummingbird.a(frame802154.o)
+ .debug_abbrev  0x00002ca0       0xe0 contiki-avr-hummingbird.a(memb.o)
+ .debug_abbrev  0x00002d80       0x8b /tmp/ccuXiKoz.o
+ .debug_abbrev  0x00002e0b       0xda /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o)
+ .debug_abbrev  0x00002ee5       0xd0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(iob.o)
+ .debug_abbrev  0x00002fb5      0x10d /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf.o)
+ .debug_abbrev  0x000030c2      0x10d /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf_p.o)
+ .debug_abbrev  0x000031cf      0x101 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(puts.o)
+ .debug_abbrev  0x000032d0       0xeb /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vsnprintf.o)
+ .debug_abbrev  0x000033bb      0x191 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .debug_abbrev  0x0000354c       0xd9 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+
+.debug_line     0x00000000     0x50ee
+ *(.debug_line)
+ .debug_line    0x00000000      0x5c2 rf_test_tx.co
+ .debug_line    0x000005c2      0x3c9 contiki-avr-hummingbird.a(packetbuf.o)
+ .debug_line    0x0000098b       0xec contiki-avr-hummingbird.a(rimeaddr.o)
+ .debug_line    0x00000a77      0x179 contiki-avr-hummingbird.a(broadcast.o)
+ .debug_line    0x00000bf0      0x144 contiki-avr-hummingbird.a(abc.o)
+ .debug_line    0x00000d34      0x1ba contiki-avr-hummingbird.a(chameleon.o)
+ .debug_line    0x00000eee      0x18a contiki-avr-hummingbird.a(channel.o)
+ .debug_line    0x00001078      0x3d1 contiki-avr-hummingbird.a(process.o)
+ .debug_line    0x00001449      0x249 contiki-avr-hummingbird.a(list.o)
+ .debug_line    0x00001692      0x38c contiki-avr-hummingbird.a(etimer.o)
+ .debug_line    0x00001a1e      0x984 contiki-avr-hummingbird.a(nrf24l01.o)
+ .debug_line    0x000023a2       0xe6 contiki-avr-hummingbird.a(delay.o)
+ .debug_line    0x00002488      0x1e6 contiki-avr-hummingbird.a(sensornode.o)
+ .debug_line    0x0000266e      0x235 contiki-avr-hummingbird.a(contiki-humming)
+ .debug_line    0x000028a3      0x1bc contiki-avr-hummingbird.a(clock.o)
+ .debug_line    0x00002a5f      0x33a contiki-avr-hummingbird.a(rs232.o)
+ .debug_line    0x00002d99      0x276 contiki-avr-hummingbird.a(rime.o)
+ .debug_line    0x0000300f       0x73 contiki-avr-hummingbird.a(rimestats.o)
+ .debug_line    0x00003082      0x235 contiki-avr-hummingbird.a(announcement.o)
+ .debug_line    0x000032b7      0x420 contiki-avr-hummingbird.a(chameleon-bitop)
+ .debug_line    0x000036d7      0x31e contiki-avr-hummingbird.a(sicslowmac.o)
+ .debug_line    0x000039f5       0xaa contiki-avr-hummingbird.a(procinit.o)
+ .debug_line    0x00003a9f       0xd5 contiki-avr-hummingbird.a(autostart.o)
+ .debug_line    0x00003b74      0x11d contiki-avr-hummingbird.a(timer.o)
+ .debug_line    0x00003c91       0x8c contiki-avr-hummingbird.a(random.o)
+ .debug_line    0x00003d1d      0x249 contiki-avr-hummingbird.a(spi.o)
+ .debug_line    0x00003f66      0x23f contiki-avr-hummingbird.a(queuebuf.o)
+ .debug_line    0x000041a5      0x39a contiki-avr-hummingbird.a(frame802154.o)
+ .debug_line    0x0000453f      0x128 contiki-avr-hummingbird.a(memb.o)
+ .debug_line    0x00004667       0x6d /tmp/ccuXiKoz.o
+ .debug_line    0x000046d4       0xe8 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o)
+ .debug_line    0x000047bc       0x86 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(iob.o)
+ .debug_line    0x00004842       0xd6 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf.o)
+ .debug_line    0x00004918       0xe8 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf_p.o)
+ .debug_line    0x00004a00       0xb7 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(puts.o)
+ .debug_line    0x00004ab7      0x115 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vsnprintf.o)
+ .debug_line    0x00004bcc      0x452 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .debug_line    0x0000501e       0xd0 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+
+.debug_frame    0x00000000      0xf30
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x30 rf_test_tx.co
+ .debug_frame   0x00000030      0x190 contiki-avr-hummingbird.a(packetbuf.o)
+ .debug_frame   0x000001c0       0x40 contiki-avr-hummingbird.a(rimeaddr.o)
+ .debug_frame   0x00000200       0x50 contiki-avr-hummingbird.a(broadcast.o)
+ .debug_frame   0x00000250       0x50 contiki-avr-hummingbird.a(abc.o)
+ .debug_frame   0x000002a0       0x50 contiki-avr-hummingbird.a(chameleon.o)
+ .debug_frame   0x000002f0       0x60 contiki-avr-hummingbird.a(channel.o)
+ .debug_frame   0x00000350       0xd0 contiki-avr-hummingbird.a(process.o)
+ .debug_frame   0x00000420       0xc0 contiki-avr-hummingbird.a(list.o)
+ .debug_frame   0x000004e0       0xf0 contiki-avr-hummingbird.a(etimer.o)
+ .debug_frame   0x000005d0      0x1d0 contiki-avr-hummingbird.a(nrf24l01.o)
+ .debug_frame   0x000007a0       0x30 contiki-avr-hummingbird.a(delay.o)
+ .debug_frame   0x000007d0       0x60 contiki-avr-hummingbird.a(sensornode.o)
+ .debug_frame   0x00000830       0x30 contiki-avr-hummingbird.a(contiki-humming)
+ .debug_frame   0x00000860       0x80 contiki-avr-hummingbird.a(clock.o)
+ .debug_frame   0x000008e0       0xe0 contiki-avr-hummingbird.a(rs232.o)
+ .debug_frame   0x000009c0       0x60 contiki-avr-hummingbird.a(rime.o)
+ .debug_frame   0x00000a20       0xb0 contiki-avr-hummingbird.a(announcement.o)
+ .debug_frame   0x00000ad0       0x90 contiki-avr-hummingbird.a(chameleon-bitop)
+ .debug_frame   0x00000b60       0x80 contiki-avr-hummingbird.a(sicslowmac.o)
+ .debug_frame   0x00000be0       0x20 contiki-avr-hummingbird.a(procinit.o)
+ .debug_frame   0x00000c00       0x30 contiki-avr-hummingbird.a(autostart.o)
+ .debug_frame   0x00000c30       0x60 contiki-avr-hummingbird.a(timer.o)
+ .debug_frame   0x00000c90       0x30 contiki-avr-hummingbird.a(random.o)
+ .debug_frame   0x00000cc0       0x50 contiki-avr-hummingbird.a(spi.o)
+ .debug_frame   0x00000d10       0x70 contiki-avr-hummingbird.a(queuebuf.o)
+ .debug_frame   0x00000d80       0x50 contiki-avr-hummingbird.a(frame802154.o)
+ .debug_frame   0x00000dd0       0x50 contiki-avr-hummingbird.a(memb.o)
+ .debug_frame   0x00000e20       0x50 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o)
+ .debug_frame   0x00000e70       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf.o)
+ .debug_frame   0x00000e90       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf_p.o)
+ .debug_frame   0x00000eb0       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(puts.o)
+ .debug_frame   0x00000ed0       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vsnprintf.o)
+ .debug_frame   0x00000ef0       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .debug_frame   0x00000f10       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+
+.debug_str      0x00000000     0x1f7e
+ *(.debug_str)
+ .debug_str     0x00000000      0x315 rf_test_tx.co
+                                0x3bd (size before relaxing)
+ .debug_str     0x00000315      0x4b2 contiki-avr-hummingbird.a(packetbuf.o)
+                                0x5c6 (size before relaxing)
+ .debug_str     0x000007c7       0x7a contiki-avr-hummingbird.a(rimeaddr.o)
+                                0x14e (size before relaxing)
+ .debug_str     0x00000841       0x6d contiki-avr-hummingbird.a(broadcast.o)
+                                0x446 (size before relaxing)
+ .debug_str     0x000008ae       0x40 contiki-avr-hummingbird.a(abc.o)
+                                0x182 (size before relaxing)
+ .debug_str     0x000008ee       0xb5 contiki-avr-hummingbird.a(chameleon.o)
+                                0x438 (size before relaxing)
+ .debug_str     0x000009a3       0x92 contiki-avr-hummingbird.a(channel.o)
+                                0x1a3 (size before relaxing)
+ .debug_str     0x00000a35      0x15d contiki-avr-hummingbird.a(process.o)
+                                0x287 (size before relaxing)
+ .debug_str     0x00000b92       0x99 contiki-avr-hummingbird.a(list.o)
+                                 0xf5 (size before relaxing)
+ .debug_str     0x00000c2b      0x133 contiki-avr-hummingbird.a(etimer.o)
+                                0x2a6 (size before relaxing)
+ .debug_str     0x00000d5e      0x468 contiki-avr-hummingbird.a(nrf24l01.o)
+                                0x8bd (size before relaxing)
+ .debug_str     0x000011c6       0x54 contiki-avr-hummingbird.a(delay.o)
+                                0x10b (size before relaxing)
+ .debug_str     0x0000121a       0x9e contiki-avr-hummingbird.a(sensornode.o)
+                                0x1bd (size before relaxing)
+ .debug_str     0x000012b8       0x79 contiki-avr-hummingbird.a(contiki-humming)
+                                0x208 (size before relaxing)
+ .debug_str     0x00001331       0x7a contiki-avr-hummingbird.a(clock.o)
+                                0x15b (size before relaxing)
+ .debug_str     0x000013ab      0x188 contiki-avr-hummingbird.a(rs232.o)
+                                0x284 (size before relaxing)
+ .debug_str     0x00001533      0x10e contiki-avr-hummingbird.a(rime.o)
+                                0x352 (size before relaxing)
+ .debug_str     0x00001641       0x20 contiki-avr-hummingbird.a(rimestats.o)
+                                0x106 (size before relaxing)
+ .debug_str     0x00001661      0x157 contiki-avr-hummingbird.a(announcement.o)
+                                0x26d (size before relaxing)
+ .debug_str     0x000017b8       0xc4 contiki-avr-hummingbird.a(chameleon-bitop)
+                                0x4ac (size before relaxing)
+ .debug_str     0x0000187c      0x1da contiki-avr-hummingbird.a(sicslowmac.o)
+                                0x5e4 (size before relaxing)
+ .debug_str     0x00001a56       0x28 contiki-avr-hummingbird.a(procinit.o)
+                                0x13e (size before relaxing)
+ .debug_str     0x00001a7e       0x3a contiki-avr-hummingbird.a(autostart.o)
+                                0x151 (size before relaxing)
+ .debug_str     0x00001ab8       0x27 contiki-avr-hummingbird.a(timer.o)
+                                0x136 (size before relaxing)
+ .debug_str     0x00001adf       0x35 contiki-avr-hummingbird.a(random.o)
+                                 0xf0 (size before relaxing)
+ .debug_str     0x00001b14       0xca contiki-avr-hummingbird.a(spi.o)
+                                0x1a7 (size before relaxing)
+ .debug_str     0x00001bde       0xdc contiki-avr-hummingbird.a(queuebuf.o)
+                                0x23d (size before relaxing)
+ .debug_str     0x00001cba       0xc2 contiki-avr-hummingbird.a(frame802154.o)
+                                0x30f (size before relaxing)
+ .debug_str     0x00001d7c       0x46 contiki-avr-hummingbird.a(memb.o)
+                                0x116 (size before relaxing)
+ .debug_str     0x00001dc2       0x20 /tmp/ccuXiKoz.o
+                                 0x71 (size before relaxing)
+ .debug_str     0x00001de2       0x76 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o)
+                                 0xb9 (size before relaxing)
+ .debug_str     0x00001e58       0x1a /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(iob.o)
+                                0x103 (size before relaxing)
+ .debug_str     0x00001e72       0x1d /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf.o)
+                                0x136 (size before relaxing)
+ .debug_str     0x00001e8f       0x28 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(printf_p.o)
+                                0x13a (size before relaxing)
+ .debug_str     0x00001eb7       0x20 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(puts.o)
+                                0x109 (size before relaxing)
+ .debug_str     0x00001ed7       0x31 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vsnprintf.o)
+                                0x13d (size before relaxing)
+ .debug_str     0x00001f08       0x54 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                                0x17c (size before relaxing)
+ .debug_str     0x00001f5c       0x22 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+                                0x10c (size before relaxing)
+
+.debug_loc      0x00000000     0x3234
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x10c rf_test_tx.co
+ .debug_loc     0x0000010c      0x2cc contiki-avr-hummingbird.a(packetbuf.o)
+ .debug_loc     0x000003d8       0xa0 contiki-avr-hummingbird.a(rimeaddr.o)
+ .debug_loc     0x00000478       0xe8 contiki-avr-hummingbird.a(broadcast.o)
+ .debug_loc     0x00000560       0xd8 contiki-avr-hummingbird.a(abc.o)
+ .debug_loc     0x00000638       0xc8 contiki-avr-hummingbird.a(chameleon.o)
+ .debug_loc     0x00000700      0x150 contiki-avr-hummingbird.a(channel.o)
+ .debug_loc     0x00000850      0x34c contiki-avr-hummingbird.a(process.o)
+ .debug_loc     0x00000b9c      0x300 contiki-avr-hummingbird.a(list.o)
+ .debug_loc     0x00000e9c      0x3ce contiki-avr-hummingbird.a(etimer.o)
+ .debug_loc     0x0000126a      0x496 contiki-avr-hummingbird.a(nrf24l01.o)
+ .debug_loc     0x00001700       0x34 contiki-avr-hummingbird.a(delay.o)
+ .debug_loc     0x00001734      0x1a8 contiki-avr-hummingbird.a(sensornode.o)
+ .debug_loc     0x000018dc       0x5e contiki-avr-hummingbird.a(clock.o)
+ .debug_loc     0x0000193a      0x249 contiki-avr-hummingbird.a(rs232.o)
+ .debug_loc     0x00001b83       0xf0 contiki-avr-hummingbird.a(rime.o)
+ .debug_loc     0x00001c73      0x250 contiki-avr-hummingbird.a(announcement.o)
+ .debug_loc     0x00001ec3      0x51b contiki-avr-hummingbird.a(chameleon-bitop)
+ .debug_loc     0x000023de      0x106 contiki-avr-hummingbird.a(sicslowmac.o)
+ .debug_loc     0x000024e4       0x30 contiki-avr-hummingbird.a(autostart.o)
+ .debug_loc     0x00002514       0xd0 contiki-avr-hummingbird.a(timer.o)
+ .debug_loc     0x000025e4       0x18 contiki-avr-hummingbird.a(random.o)
+ .debug_loc     0x000025fc      0x133 contiki-avr-hummingbird.a(spi.o)
+ .debug_loc     0x0000272f      0x180 contiki-avr-hummingbird.a(queuebuf.o)
+ .debug_loc     0x000028af      0x24b contiki-avr-hummingbird.a(frame802154.o)
+ .debug_loc     0x00002afa       0xf0 contiki-avr-hummingbird.a(memb.o)
+ .debug_loc     0x00002bea       0xa2 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(rand.o)
+ .debug_loc     0x00002c8c       0x5e /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(puts.o)
+ .debug_loc     0x00002cea       0x80 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vsnprintf.o)
+ .debug_loc     0x00002d6a      0x46a /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .debug_loc     0x000031d4       0x60 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(fputc.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(rf_test_tx.out elf32-avr)
+LOAD linker stubs
+
+.bootloader     0x0001fc00        0x0
+
+.debug_ranges   0x00000000      0x138
+ .debug_ranges  0x00000000       0x30 contiki-avr-hummingbird.a(process.o)
+ .debug_ranges  0x00000030       0x30 contiki-avr-hummingbird.a(rs232.o)
+ .debug_ranges  0x00000060       0x78 contiki-avr-hummingbird.a(chameleon-bitop)
+ .debug_ranges  0x000000d8       0x48 contiki-avr-hummingbird.a(spi.o)
+ .debug_ranges  0x00000120       0x18 /usr/local/avr/lib/gcc/avr/4.3.0/../../../../avr/lib/avr5/libc.a(vfprintf_std.o)

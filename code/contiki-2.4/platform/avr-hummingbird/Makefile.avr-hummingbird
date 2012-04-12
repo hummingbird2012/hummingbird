@@ -1,0 +1,45 @@
+
+ifndef CONTIKI
+  $(error CONTIKI not defined! You must specify where CONTIKI resides!)
+endif
+
+CONTIKI_TARGET_DIRS = . ./dev ./dev/radio ./dev/1-wire dev net loader
+
+CONTIKI_CORE=contiki-hummingbird-main.c
+CONTIKI_TARGET_MAIN = ${CONTIKI_CORE}.o
+#rf driver
+CONTIKI_TARGET_SOURCEFILES += spi.c delay.c nrf24l01.c uart.c
+#1-wire driver
+#CONTIKI_TARGET_SOURCEFILES += sensornode.c
+#main
+CONTIKI_TARGET_SOURCEFILES += contiki-hummingbird-main.c
+#uip protocol
+CONTIKI_TARGET_SOURCEFILES += uip-nd6.c uip-nd6-io.c uip-icmp6.c uip-netif.c uip.c uip6.c 
+#mac protocol
+CONTIKI_TARGET_SOURCEFILES += sicslowmac.c sicslowpan.c
+
+CONTIKIAVR=$(CONTIKI)/cpu/avr
+CONTIKIBOARD=.
+
+CONTIKI_PLAT_DEFS = -DF_CPU=1000000UL -DAUTO_CRC_PADDING=2
+
+#MCU=atmega1284p
+MCU=atmega644p
+
+#AVRDUDE_PROGRAMMER=jtag2
+
+# For usb devices, you may either use PORT=usb, or (e.g. if you have more than one
+# programmer connected) you can use the following trick to find out the serial number:
+#
+# The example is for an JTAGICE mkII used to program an ATmega128:
+# avrdude -v -P usb:xxxx -c jtag2 -p atmega128
+#AVRDUDE_PORT=usb:00B000000D79
+
+
+# Additional avrdude options
+# Verify off
+#AVRDUDE_OPTIONS=-V
+
+
+include $(CONTIKIAVR)/Makefile.avr
+#include $(CONTIKIAVR)/radio/Makefile.radio
